@@ -1,9 +1,9 @@
 package com.jiefei.sql.parser;
 
-import com.jiefei.sql.gen.SparkSQLLexer;
-import com.jiefei.sql.gen.SparkSQLParser;
-import com.jiefei.sql.gen.TrinoLexer;
-import com.jiefei.sql.gen.TrinoParser;
+import com.jiefei.sql.sparkSQL.SparkSQLLexer;
+import com.jiefei.sql.sparkSQL.SparkSQLParser;
+import com.jiefei.sql.trino.TrinoLexer;
+import com.jiefei.sql.trino.TrinoParser;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.DefaultErrorStrategy;

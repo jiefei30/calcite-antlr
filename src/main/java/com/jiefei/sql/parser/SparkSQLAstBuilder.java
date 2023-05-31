@@ -1,8 +1,8 @@
 package com.jiefei.sql.parser;
 
 import com.google.common.collect.Lists;
-import com.jiefei.sql.gen.SparkSQLParser;
-import com.jiefei.sql.gen.SparkSQLParserBaseVisitor;
+import com.jiefei.sql.sparkSQL.SparkSQLParser;
+import com.jiefei.sql.sparkSQL.SparkSQLParserBaseVisitor;
 import com.jiefei.sql.operator.SqlOverlayFunction;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.apache.calcite.sql.SqlBasicCall;

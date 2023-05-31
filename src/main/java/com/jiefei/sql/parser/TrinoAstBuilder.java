@@ -1,8 +1,8 @@
 package com.jiefei.sql.parser;
 
 import com.google.common.collect.Lists;
-import com.jiefei.sql.gen.TrinoBaseVisitor;
-import com.jiefei.sql.gen.TrinoParser;
+import com.jiefei.sql.trino.TrinoBaseVisitor;
+import com.jiefei.sql.trino.TrinoParser;
 import com.jiefei.sql.operator.SqlTryCastFunction;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.apache.calcite.sql.SqlBasicCall;
